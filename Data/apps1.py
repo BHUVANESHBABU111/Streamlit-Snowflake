@@ -5,7 +5,7 @@ import streamlit as st
 
 st.title("Hieraricall Data Viewer")
 
-df = pd.read_csv("data/employees.csv", header=0).convert_dtypes()
+df = pd.read_csv("employees.csv", header=0).convert_dtypes()
 st.dataframe(df)
 
 
